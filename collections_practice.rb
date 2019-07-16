@@ -25,6 +25,6 @@ end
 
 def find_a(array)
   array.each do|element|
-  
+  element.each_with_index
   end
 end
