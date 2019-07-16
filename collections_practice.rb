@@ -24,10 +24,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  newElement = []
+  
   array.collect do|element|
   element.insert(3, "$")
-  end
+  
  
   end
 end
