@@ -26,7 +26,7 @@ end
 def kesha_maker(array)
   
   array.collect do|element|
-  element.insert(2, "$")
+  element[2]="$"
   
  
   end
