@@ -25,6 +25,9 @@ end
 
 def find_a(array)
   array.each do|element|
-  element.each_with_index
+  element.each_with_index do |letter,index|
+  letter = "$" if index = 2
+  end
+  return element
   end
 end
