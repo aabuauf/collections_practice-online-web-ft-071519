@@ -23,7 +23,7 @@ def reverse_array(array)
   return array.reverse
 end
 
-def find_a(array)
+def kesha_maker(array)
   array.each do|element|
   element.each_with_index do |letter,index|
   letter = "$" if index = 2
