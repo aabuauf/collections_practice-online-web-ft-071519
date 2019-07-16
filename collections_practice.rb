@@ -24,7 +24,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do|element|
+  array.collect do|element|
   element.chars.each_with_index do |letter,index|
   letter = "$" if index = 2
   end
