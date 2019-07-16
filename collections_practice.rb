@@ -7,5 +7,5 @@ end
 
 def sort_array_desc(array)
   array.sort
-  return array
+  return array.sort
 end
