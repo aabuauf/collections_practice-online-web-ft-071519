@@ -28,6 +28,6 @@ def kesha_maker(array)
   element.each_with_index do |letter,index|
   letter = "$" if index = 2
   end
-  return element
+ 
   end
 end
